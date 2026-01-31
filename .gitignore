@@ -1,0 +1,71 @@
+##################################
+# Environment / Secrets
+##################################
+.env
+.env.*
+*.env
+
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+##################################
+# Virtual Environments
+##################################
+venv/
+.venv/
+env/
+ENV/
+
+##################################
+# Airflow
+##################################
+airflow/logs/
+airflow/configs/
+airflow/plugins/__pycache__/
+airflow/dags/__pycache__/
+airflow/*.pid
+airflow/*.db
+airflow/airflow.cfg
+
+##################################
+# Terraform
+##################################
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+crash.*.log
+
+##################################
+# Docker
+##################################
+*.log
+docker-compose.override.yml
+
+##################################
+# OS / Editor
+##################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+##################################
+# Misc
+##################################
+*.swp
+*.tmp
